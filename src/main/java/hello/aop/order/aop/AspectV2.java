@@ -10,7 +10,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class AspectV2 {
 
-    // hello.aop.orer 패키지와 그 하위 패키지 전부
+    // hello.aop.order 패키지와 그 하위 패키지 전부
     @Pointcut("execution (* hello.aop.order..*(..))")
     private void allOrder() {}  // pointcut signature
 

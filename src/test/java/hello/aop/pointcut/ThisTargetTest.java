@@ -56,6 +56,7 @@ public class ThisTargetTest {
         public Object doTarget(ProceedingJoinPoint joinPoint) throws Throwable {
             log.info("[target-impl] {}", joinPoint.getSignature());
             return joinPoint.proceed();
+            
         }
     }
 }
